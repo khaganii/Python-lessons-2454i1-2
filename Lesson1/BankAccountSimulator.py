@@ -11,6 +11,4 @@ while True:
     if init_deposit < 0:
       print("You can't go lower 0")
       init_deposit += value
-      print(f"Your balance is {init_deposit}")
-      continue
     print(f"Your balance is {init_deposit}")

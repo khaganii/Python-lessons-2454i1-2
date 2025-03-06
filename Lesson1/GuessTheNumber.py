@@ -1,7 +1,7 @@
 import random
 
 n=random.randrange(0,20,1)
-found= False
+found = False
 print(n)
 for i in range(1,4):
     a=int(input())
@@ -11,7 +11,6 @@ for i in range(1,4):
         break
     elif a<n:
         print("Too low")
-
     else:
         print("Too high")
 if found:
